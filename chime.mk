@@ -308,6 +308,10 @@ PRODUCT_PACKAGES += \
     TelephonyResChime \
     WifiResCommon
 
+# Overlay maintainer
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false

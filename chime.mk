@@ -320,6 +320,10 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Graphene Camera
+PRODUCT_PACKAGES += \
+    GrapheneCamera
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2 \

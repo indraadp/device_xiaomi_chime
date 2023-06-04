@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_chime.mk
+    $(LOCAL_DIR)/superior_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_chime-user \
-    ancient_chime-userdebug \
-    ancient_chime-eng
+    superior_chime-user \
+    superior_chime-userdebug \
+    superior_chime-eng
